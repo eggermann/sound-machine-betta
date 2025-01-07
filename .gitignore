@@ -1,0 +1,58 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore node.js dependencies
+node_modules/
+
+# Ignore Composer dependencies
+vendor/
+
+# Environment and configuration files
+.env
+.env.*
+
+# Cache and logs
+*.log
+*.cache
+*.tmp
+cache/
+logs/
+
+# Symfony / Laravel specific
+bootstrap/cache/
+storage/*.key
+storage/*.log
+storage/framework/*
+storage/app/*
+!storage/.gitignore
+
+# Ignore PHPUnit result
+phpunit.xml
+phpunit-result.cache
+
+# Ignore built files
+/public/build/
+/public/storage/
+*.swp
+
+# Ignore user uploads or other dynamic content
+uploads/
+
+# Ignore any other temporary files
+temp/
+*.bak
+*.sw~
+
+# Ignore OS-specific files
+*.swp
+*.bak
+*.swo
+*.sw~
+
+# Miscellaneous
+*.~undo-tree
